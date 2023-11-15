@@ -7,3 +7,39 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+# Flat 1
+Flat.create!(
+  name: 'Light & Spacious Garden Flat London',
+  address: '10 Clifton Gardens London W9 1DT',
+  description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+# Flat 2
+Flat.create!(
+  name: 'Cozy Studio Apartment',
+  address: '123 Main Street, Anytown, USA',
+  description: 'A small and cozy studio apartment with a modern vibe.',
+  price_per_night: 60,
+  number_of_guests: 2
+)
+
+# Flat 3
+Flat.create!(
+  name: 'Luxurious Penthouse Suite',
+  address: '456 Highrise Avenue, Cityville, USA',
+  description: 'Experience luxury in this stunning penthouse suite with panoramic views.',
+  price_per_night: 200,
+  number_of_guests: 4
+)
+
+# Flat 4
+Flat.create!(
+  name: 'Quaint Countryside Cottage',
+  address: '789 Country Lane, Villagetown, USA',
+  description: 'Escape to the countryside in this charming cottage surrounded by nature.',
+  price_per_night: 80,
+  number_of_guests: 2
+)
